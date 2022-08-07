@@ -1,0 +1,86 @@
+p {
+    color: white;
+    font-family: Arial, "Times new roman";
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center
+}
+
+body {
+    background-color: #DEB887;
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+    text-shadow: 2px 1px 1px #111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial;
+}
+
+header {
+    background-color: #DEB887;
+    height: 80px;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: #A0522D;
+    height: 20px;
+    text-align: center;
+    padding: 40px;
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 15px;
+    color: #ffff;
+}
+
+h1 {
+    color: #CD853F;
+    text-shadow: 2px 1px 1px #111111;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+#principal {
+    background-image: url('Imagens/cafe.jpg');
+    clear: both;
+    background-size: 100%;
+    min-height: 600px;
+    padding: 100px 0 0 0;
+
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    margin: 50px;
+    float: right;
+
+}
+
+#menu a {
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #F0F8FF;
+    text-shadow: 2px 1px #111111;
+}
+
+#menu a:hover {
+    background-color: #8B4513;
+    color: #ffff;
+}
+
+
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito {
+    background-color: rgba(255, 99, 71, 0.4);
+    padding: 50px;
+}
